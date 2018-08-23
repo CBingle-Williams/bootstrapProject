@@ -1,0 +1,32 @@
+body {
+    width: 75%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.disk {
+    list-style-type: disc;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.square {
+    list-style-type: square;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 100%;
+    }
+}
